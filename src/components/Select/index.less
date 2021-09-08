@@ -1,0 +1,466 @@
+.ant-select {
+  .ant-select-selection-placeholder {
+    color: rgba(0, 0, 0, 0.65) !important;
+  }
+}
+
+.ant-picker-input {
+  input {
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.65) !important;
+    }
+  }
+}
+.home * {
+  vertical-align: middle;
+}
+.spanLeft {
+  display: inline-block;
+  width: 79px;
+  padding-right: 10px;
+  text-align: right;
+}
+.spanSingle {
+  display: inline-block;
+  width: 42px;
+  text-align: right;
+}
+// 筛选基础单位
+.titleSelect {
+  &.ant-select.ant-select-single {
+    width: 272px;
+    height: 36px;
+    color: rgba(0, 0, 0, 0.65);
+    box-sizing: border-box;
+    border-radius: 4px;
+    .ant-select-selector {
+      width: 272px;
+      height: 36px;
+
+      color: rgba(0, 0, 0, 0.65);
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 0 16px;
+      .ant-select-selection-search {
+        left: 16px;
+      }
+      .ant-select-selection-search-input {
+        height: 100%;
+      }
+      .ant-select-selection-item {
+        height: 100%;
+        line-height: 34px;
+      }
+    }
+    .ant-select-selection-placeholder {
+      height: 36px;
+      line-height: 34px;
+    }
+  }
+}
+// 无边框下拉
+
+.ant-select.selectNotitle.ant-select-single {
+  width: 168px;
+  height: 38px;
+  margin-left: 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  &.ant-select-focused {
+    .ant-select-selector {
+      box-shadow: none !important;
+    }
+  }
+  .ant-select-selector {
+    border: 0;
+
+    padding: 0 20px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  .ant-select-arrow {
+    top: 45%;
+    right: 159px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+}
+// 筛选基础单位28
+
+.selectHeight28.ant-select.ant-select-multiple {
+  width: 272px;
+  height: 28px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .ant-select-selector {
+    width: 272px;
+    height: 28px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    // padding: 0 16px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+
+    .ant-select-selection-overflow {
+      top: 2px;
+      .ant-select-selection-item-remove {
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+        border-radius: 50%;
+        line-height: 10px;
+        background: rgba(0, 0, 0, 0.25);
+        color: #fff;
+      }
+    }
+    .ant-select-selection-item {
+      margin-top: -2px;
+    }
+  }
+}
+// 下拉展开
+.ant-select-dropdown {
+  &.multDown {
+    &.ant-select-dropdown-placement-bottomLeft {
+      // 选中
+      .ant-select-item-option-selected {
+        .ant-select-item-option-content {
+          padding-left: 25px;
+        }
+        .ant-select-item-option-state {
+          position: absolute;
+          left: 10px;
+        }
+      }
+    }
+  }
+}
+// 选中状态
+.ant-select-dropdown {
+  &.ant-select-dropdown-placement-bottomLeft {
+    // 选中
+    .ant-select-item-option-selected {
+      background: #2d54e6;
+      color: #fff;
+      .ant-select-item-option-state {
+        color: #fff;
+      }
+    }
+    // hover
+    .ant-select-item.ant-select-item-option {
+      // &:not(.ant-select-item-option-selected){
+      &:hover {
+        background: #f0f6ff;
+        color: rgba(0, 0, 0, 0.65);
+        .ant-select-item-option-state {
+          color: rgba(0, 0, 0, 0.65);
+        }
+      }
+      // }
+    }
+  }
+}
+// 筛选基础单位32
+
+.selectHeight32.ant-select.ant-select-multiple {
+  width: 272px;
+  height: 32px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .ant-select-selector {
+    // padding: 0 16px;
+    width: 272px;
+    height: 32px;
+
+    box-sizing: border-box;
+    border-radius: 4px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+    .ant-select-selection-item {
+      height: 26px;
+      line-height: 26px;
+      margin-top: 1px;
+    }
+
+    .ant-select-selection-overflow {
+      .ant-select-selection-item-remove {
+        width: 16px;
+        height: 16px;
+        margin-top: 4px;
+        border-radius: 50%;
+        line-height: 13px;
+        background: rgba(0, 0, 0, 0.25);
+        color: #fff;
+      }
+    }
+  }
+}
+// 筛选基础单位36
+
+.selectHeight36.ant-select.ant-select-multiple {
+  width: 272px;
+  height: 36px;
+
+  box-sizing: border-box;
+  border-radius: 4px;
+  .ant-select-selector {
+    width: 272px;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    // padding: 0 16px;
+
+    .ant-select-selection-search {
+      left: 16px;
+    }
+
+    .ant-select-selection-overflow {
+      .ant-select-selection-item {
+        line-height: 28px;
+        height: 28px;
+        margin-top: 1px;
+      }
+      .ant-select-selection-item-remove {
+        width: 16px;
+        height: 16px;
+        margin-top: 5px;
+        border-radius: 50%;
+        line-height: 13px;
+        background: rgba(0, 0, 0, 0.25);
+        color: #fff;
+      }
+    }
+  }
+}
+// 筛选基础单位无标题28
+.select1Height28.ant-select.ant-select-multiple {
+  width: 224px;
+  height: 28px;
+  border-radius: 4px;
+  // hover
+  .ant-select-selector:hover {
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .ant-select-selector {
+    width: 224px;
+    height: 28px;
+    border-radius: 4px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+
+    .ant-select-selection-overflow {
+      .ant-select-selection-item-remove {
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+        border-radius: 50%;
+        line-height: 13px;
+        background: rgba(0, 0, 0, 0.25);
+        color: #fff;
+      }
+    }
+    .ant-select-selection-item {
+      margin-top: -2px;
+    }
+  }
+}
+.select1Height28.ant-select-focused {
+  .ant-select-selector {
+    box-shadow: none !important;
+  }
+}
+.error {
+  .ant-select-selector {
+    border-color: #ed5b56 !important;
+  }
+}
+// 筛选基础单位无标题32
+.select1Height32.ant-select.ant-select-multiple {
+  width: 224px;
+  height: 32px;
+  border-radius: 4px;
+  // hover
+  .ant-select-selector:hover {
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .ant-select-selector {
+    width: 224px;
+    height: 32px;
+    border-radius: 4px;
+    .ant-select-selection-item {
+      height: 26px;
+      line-height: 26px;
+      margin-top: 1px;
+    }
+    .ant-select-selection-search {
+      left: 16px;
+    }
+
+    .ant-select-selection-overflow {
+      .ant-select-selection-item-remove {
+        width: 16px;
+        height: 16px;
+        margin-top: 4px;
+        border-radius: 50%;
+        line-height: 13px;
+        background: rgba(0, 0, 0, 0.25);
+        color: #fff;
+      }
+    }
+  }
+}
+.select1Height32.ant-select-focused {
+  .ant-select-selector {
+    box-shadow: none !important;
+  }
+}
+// 筛选基础单位无标题36
+.select1Height36.ant-select.ant-select-multiple {
+  width: 224px;
+  height: 36px;
+  border-radius: 4px;
+  // hover
+  .ant-select-selector:hover {
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .ant-select-selector {
+    width: 224px;
+    height: 36px;
+    border-radius: 4px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+
+    .ant-select-selection-overflow {
+      .ant-select-selection-item {
+        height: 28px;
+        line-height: 28px;
+        margin-top: 2px;
+      }
+      .ant-select-selection-item-remove {
+        width: 16px;
+        height: 16px;
+        margin-top: 5px;
+        border-radius: 50%;
+        line-height: 13px;
+        background: rgba(0, 0, 0, 0.25);
+        color: #fff;
+      }
+    }
+  }
+}
+.select1Height36.ant-select-focused {
+  .ant-select-selector {
+    box-shadow: none !important;
+  }
+}
+// frame63
+
+.ant-select.frame63.ant-select-single {
+  width: 224px;
+  height: 38px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .ant-select-selector {
+    width: 224px;
+    height: 38px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 16px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+    .ant-select-selection-search-input {
+      height: 100%;
+    }
+    .ant-select-selection-item {
+      height: 100%;
+      line-height: 36px;
+    }
+  }
+  .ant-select-arrow {
+    top: 45%;
+  }
+  .ant-select-selection-placeholder {
+    height: 38px;
+    line-height: 36px;
+  }
+}
+// frame62
+.ant-select.frame62.ant-select-single {
+  width: 126px;
+  height: 38px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .ant-select-selector {
+    width: 126px;
+    height: 38px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 16px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+    .ant-select-selection-search-input {
+      height: 100%;
+    }
+    .ant-select-selection-item {
+      height: 100%;
+      line-height: 36px;
+    }
+  }
+  .ant-select-arrow {
+    top: 45%;
+  }
+  .ant-select-selection-placeholder {
+    height: 38px;
+    line-height: 36px;
+  }
+}
+// 单选
+.ant-select.frameSingle.ant-select-single {
+  width: 224px;
+  height: 36px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .ant-select-selector {
+    width: 224px;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 16px;
+    .ant-select-selection-search {
+      left: 16px;
+    }
+    .ant-select-selection-search-input {
+      height: 100%;
+    }
+    .ant-select-selection-item {
+      height: 100%;
+      line-height: 34px;
+    }
+  }
+  .ant-select-arrow {
+    top: 45%;
+  }
+  .ant-select-selection-placeholder {
+    left: 16px;
+    height: 36px;
+    line-height: 34px;
+  }
+}
